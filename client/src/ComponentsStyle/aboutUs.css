@@ -1,0 +1,59 @@
+#page-title {
+    text-align: center;
+    padding-top: 10%;
+    color: #222831;
+}
+
+.img-fluid {
+    max-width: 90%;
+    height: 90%;
+}
+
+.scrollable-group-about-us {
+    height: 73vh;
+    overflow: auto;
+}
+
+.about-us-row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.about-us-row {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #393E46;
+    border-radius: 15px;
+    align-content: center;
+}
+
+.card-title {
+    color: #222831;
+}
+
+.faqs {
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 3%;
+}
+
+.accordion-item {
+    color: #222831 !important;
+}
+
+.accordion-button,
+.accordion-button-collapsed {
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #222831;
+}

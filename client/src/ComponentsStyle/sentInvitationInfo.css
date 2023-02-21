@@ -1,0 +1,58 @@
+.invitation-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 90vh;
+}
+
+.voucher-invitation-row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 90%;
+}
+
+.voucher-invitation-row {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #393E46;
+    border-radius: 15px;
+    align-content: center;
+}
+
+.invitation-info-row {
+    display: flex;
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.invitation-answer {
+    color: #222831;
+}
+#delete-invitation {
+    border-radius: 25px;
+    width: 60%;
+    height: 50px;
+    font-size: 1.3rem;
+    color: #EEEEEE;
+    font-weight: 500;
+    background: linear-gradient(90deg, #ff0000b6 0%, rgb(255, 125, 125) 100%);
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

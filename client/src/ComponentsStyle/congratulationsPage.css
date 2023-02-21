@@ -1,0 +1,18 @@
+.congratulations-title,
+.congratulations-message {
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 0%;
+    color: #222831;
+}
+.fireworks-row {
+    height: 40vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.ok-button {
+    margin-top: 10%;
+}

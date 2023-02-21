@@ -1,0 +1,32 @@
+#page-title {
+    text-align: center;
+    padding-top: 10%;
+    color: #222831;
+}
+
+.qr-code-reader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+}
+
+.ok-button {
+    border-radius: 25px;
+    width: 30%;
+    height: 50px;
+    font-size: 1.3rem;
+    color: #EEEEEE;
+    font-weight: 500;
+    background: linear-gradient(90deg, #222831 0%, #393E46 100%);
+    border: 0px;
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+    margin-bottom: 10%;
+}

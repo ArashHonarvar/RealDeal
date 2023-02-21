@@ -1,0 +1,35 @@
+.item-box-with-border {
+    height: 120px;
+    border: 3px solid black;
+    padding: 10%;
+}
+
+.item-box-without-border {
+    height: 120px;
+    padding: 10%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.margin-5percent {
+    margin: 5% !important;
+}
+
+.margin-bottom-10px {
+    margin-bottom: 10px !important;
+}
+
+.margin-bottom-20px {
+    margin-bottom: 20px !important;
+}
+
+.scroll-box {
+    height: '60vh'
+}
+
+.interest-icon {
+    width: 130px;
+    height: 70px;
+}

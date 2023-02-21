@@ -1,0 +1,108 @@
+html {
+    font-size: 100%;
+}
+
+.login-alert {
+    width: min(400px, 90%);
+    margin-bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.scrollable-group-register {
+    height: 75vh;
+    overflow: auto;
+}
+#login-form {
+    width: min(400px, 90%);
+    border-radius: 25px;
+    background: linear-gradient(120deg, #CBF1F5 0%, #EEEEEE 100%);
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+#login-form-title {
+    text-align: center;
+    font-family: 'open sans', sans-serif;
+    padding: 1rem 0;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.login-form-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.login-form-radio {
+    align-items: center;
+    padding-top: 1rem;
+    display: inline-flex;
+}
+
+.login-input {
+    width: 80%;
+    box-sizing: border-box;
+    border: none;
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    box-shadow: inset 0px -3px 0px 0px #EEEEEE;
+    transition: box-shadow 0.2s ease-in;
+}
+
+.login-input:focus {
+    box-shadow: inset 0px -3px 0px 0px #CBF1F5;
+    outline: none;
+}
+
+.login-input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: opacity 0.25s ease-out;
+}
+
+.login-input:hover::-webkit-input-placeholder,
+.login-input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.login-label {
+    align-self: start;
+    padding-left: 2.5rem;
+    padding-bottom: 0.5rem;
+    color: #222831;
+}
+
+.login-button {
+    border-radius: 25px;
+    width: 60%;
+    height: 40px;
+    font-size: 1.3rem;
+    color: #EEEEEE;
+    font-weight: 500;
+    background: linear-gradient(90deg, #222831 0%, #393E46 100%);
+    border: 0px;
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+}
+
+.login-button:hover {
+    opacity: 0.8;
+}
+
+#button-container {
+    padding-bottom: 1.5rem;
+}
+
+#or {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.form-check-inline {
+    padding-top: 11%;
+    padding-bottom: 0;
+}

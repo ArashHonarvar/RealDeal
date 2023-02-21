@@ -1,0 +1,101 @@
+#page-title {
+    text-align: center;
+    padding-top: 10%;
+    color: #222831;
+}
+
+.img-fluid {
+    max-width: 90%;
+    height: 90%;
+}
+
+.scrollable-group {
+    height: 55vh;
+    overflow: auto;
+}
+
+.voucher-row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.voucher-row {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #393E46;
+    border-radius: 15px;
+    align-content: center;
+}
+
+.card-title {
+    color: #222831;
+}
+
+.scan-button {
+    color: #222831;
+}
+
+.add-button {
+    color: #222831;
+}
+
+.buttons {
+    position: fixed;
+    bottom: 0;
+}
+
+.button-column {
+    flex: 1 0;
+    display: flex;
+    justify-content: center;
+}
+.icon-row {
+    height: 4rem;
+    width: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.edit-icon {
+    color: #ffbd03;
+    border-style: solid;
+    border-radius: 5px;
+    height: min-content;
+    width: min-content;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 50%;
+}
+
+.delete-icon {
+    color: rgb(225, 0, 0);
+    border-style: solid;
+    border-radius: 5px;
+    height: min-content;
+    width: min-content;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 50%;
+}
+
+.modal-body-delete {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: end;
+}
+
+.cancel-button,
+.delete-voucher-button {
+    margin-left: 5%;
+}

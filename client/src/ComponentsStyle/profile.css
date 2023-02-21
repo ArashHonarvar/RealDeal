@@ -1,0 +1,38 @@
+#page-title {
+    text-align: center;
+    padding-top: 10%;
+    color: #222831;
+}
+
+.common-interests {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #222831;
+}
+
+.profile-pic {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.profile-pic-image {
+    width: 60% !important;
+    height: 100% !important;
+}
+.profile-interest-icon {
+    height: 25px;
+    width: 25px;
+}
+
+.row-interests,
+.row-info {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+}

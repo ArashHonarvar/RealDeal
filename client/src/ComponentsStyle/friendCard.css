@@ -1,0 +1,115 @@
+#page-title {
+    text-align: center;
+    padding-top: 10%;
+    color: #222831;
+}
+
+.img-fluid {
+    max-width: 90%;
+    height: 90%;
+}
+
+.scrollable-group {
+    height: 70vh;
+    overflow: auto;
+}
+
+.friend-row {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.friend-row {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #393E46;
+    border-radius: 15px;
+    align-content: center;
+    padding: 0 0 0 0;
+}
+
+.friend-col {
+    height: max-content;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-title {
+    display: grid;
+    color: #222831;
+}
+
+.buttons {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.button-column {
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+}
+
+.find-new-friends {
+    border-radius: 25px;
+    width: 60%;
+    height: 50px;
+    font-size: 1.3rem;
+    color: #EEEEEE;
+    font-weight: 500;
+    background: linear-gradient(90deg, #222831 0%, #393E46 100%);
+    border: 0px;
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+    margin-bottom: 10%;
+}
+.common-vouchers-column {
+    padding-left: 0%;
+    padding-right: 2.5%;
+    height: 100%;
+        display: grid;
+        align-content: center;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+.common-vouchers-button,
+.common-vouchers-button:enabled,
+.common-vouchers-button:active {
+    padding-left: 0%;
+    padding-right: 2.5%;
+    font-size: 0.8rem;
+    color: #222831;
+    font-weight: 500;
+    background-color: #CBF1F5;
+    border: 1px solid;
+    transition: opacity 0.25s ease-out;
+}
+.new-icon-row {
+    vertical-align: top;
+}
+
+.new-icon {
+    color: green;
+    display: flex;
+    justify-self: end;
+    vertical-align: top !important;
+    height: 1.7em;
+    width: 1.7em;
+}
+.new-friend-modal {
+    top: 10%;
+    right: 0;
+    width: 50%;
+    left: unset;
+}

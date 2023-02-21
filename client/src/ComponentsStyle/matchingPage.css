@@ -1,0 +1,62 @@
+.friends-container {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.friends {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80vh;
+}
+
+.no-friends {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50vh;
+}
+
+.friends-row {
+    display: flex;
+    width: 100%;
+    justify-self: center;
+    text-align: center;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.no-possible-friends-button {
+    border-radius: 25px;
+    width: 60%;
+    height: 50px;
+    font-size: 1.3rem;
+    color: #EEEEEE;
+    font-weight: 500;
+    background: linear-gradient(90deg, #222831 0%, #393E46 100%);
+    border: 0px;
+    cursor: pointer;
+    transition: opacity 0.25s ease-out;
+    margin-bottom: 10%;
+}
+
+.thumbs-down {
+    transform: scaleX(-1);
+}
+
+.friends-col-left {
+    display: flex;
+    justify-content: right;
+}
+
+.friends-col-right {
+    display: flex;
+    justify-content: left;
+}
+
+.friends-interests {
+    text-align: left;
+}
